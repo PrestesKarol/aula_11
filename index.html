@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Coderhouse - Aula 11</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <!-- Hover -->
+        <p class="frase1">Look at the stars</p>
+        <p class="frase2"> Look how they shine for you</p>
+    </section>
+    <section class="Link1">
+        <!-- Active  -->
+        <a href="https://www.vagalume.com.br/coldplay/yellow.html">Letra da música</a>
+    </section>
+    <br>
+    <section class="Link2">
+        <!-- Visited -->
+        <a href="https://www.vagalume.com.br/coldplay/yellow.html">Conheça a letra completa</a>
+    </section>
+    <br><br>
+    <section class="Nome">
+        <!-- Focus -->
+        <label for="nome"><b>Nome:</b></label>
+        <input type="text" name="nome" />
+    </section>
+    <br><br>
+    <section class="Lista1">
+        <!-- first-child, last-child e nth-child -->
+        <ul>
+            <li>Look at the stars</li>
+            <li>Look how they shine for you</li>
+            <li>And everything you do</li>
+            <li>Yeah, they were all yellow</li>
+        </ul>
+    </section>
+    <br><br>
+    <section class="Lista2">
+        <!-- first-of-type, last-of-type e nth-of-type -->
+        <ul>
+            <li>I came along</li>
+            <li>I wrote a song for you</li>
+            <li>And all the things you do</li>
+            <li>And it was called "Yellow. "</li>
+        </ul>
+
+        <ul>
+            <li>So then I took my turn</li>
+            <li>Oh what a thing to've done</li>
+            <li>And it was all yellow</li>
+        </ul>
+    </section>
+    <section class="Lista3">
+        <!-- nth-of-type e not -->
+        <ul>
+            <li>Your skin</li>
+            <li>Oh yeah, your skin and bones</li>
+            <li>Turn into something beautiful</li>
+            <li class="destaque">Do you know?</li>
+        </ul>
+    </section>
+    <br><br>
+    <section class="qualamusica1">
+        <!-- checked -->
+        <h1> A letra mencionada acima, é de qual música do Coldplay?</h1>
+        <forms>
+            <input type="radio" id="Yellow" name="música" value="Yellow">
+            <label for="Yellow"> Yellow</label><br>
+            <input type="radio" id="Fix You" name="música" value="Fix You">
+            <label for="Fix You"> Fix You</label><br>
+            <input type="radio" id="Green eyes" name="música" value="Green eyes">
+            <label for="Green eyes"> Green eyes</label><br>
+        </forms>
+    </section>
+    <br>
+    <section class="qualamusica2">
+        <!-- disabled -->
+        <select>
+            <h1> A letra mencionada acima, é de qual música do Coldplay?</h1>
+            <option>Yellow</option>
+            <option>Fix You</option>
+            <option>Viva la Vida</option>
+            <option disabled>Green eyes</option>
+        </select>
+        <br><br>
+    </section>
+    <section class="escolhadamusica">
+        <!-- valid, invalid, required e placeholder-->
+        <h1> Qual sua música preferida do Coldplay entre as músicas mencionadas a abaixo?</h1>
+        <br>
+        <ol>
+            <li>Yellow</li>
+            <li>Viva la Vida</li>
+            <li>Paradise</li>
+            <li>Fix You</li>
+        </ol>
+        <label for="number">Coloque a sua escolha aqui</label>
+        <input type="number" id="number" placeholder="1">
+        <br> <br>
+        <label for="name"> Nome</label>
+        <input type="name" required>
+    </section>
+    <br><br>
+    <section>
+        <!-- after, before, first-letter, first-line -->
+        <div class="paragrafos1">
+        <p>It's true, look how they shine for you</p>
+        <p>Look how they shine for</p>
+    </div>
+    <div class="paragrafos2">
+        <p>Look how they shine for you</p>
+        <p>Look how they shine for you</p>
+    </div>
+    </section>
+    <br>
+</body>
+
+</html>

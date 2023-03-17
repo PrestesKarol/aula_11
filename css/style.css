@@ -1,0 +1,179 @@
+.frase1 {
+    background-color: rgb(226, 43, 211);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+
+.frase1:hover {
+    color: yellow;
+}
+
+.frase2 {
+    background-color: rgb(226, 43, 211);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+
+.frase2:hover {
+    background-color: yellow;
+    color: grey;
+}
+
+.Link1>a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    color: blueviolet;
+}
+
+.Link1>a:active {
+    color: yellow;
+}
+
+.Link2>a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    color: blueviolet;
+}
+
+.Link2>a:visited {
+    color: aquamarine;
+}
+
+.Nome>label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.Nome>input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.Name>input:focus {
+    background: yellow;
+}
+
+.Lista1>ul>li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: deeppink;
+}
+
+.Lista1>ul>li:first-child {
+    color: yellow;
+    background-color: deeppink;
+}
+
+.Lista1>ul>li:last-child {
+    color: yellow;
+    background-color: deeppink;
+}
+
+.Lista1>ul>li:nth-child(2) {
+    color: gray;
+    background-color: yellow;
+}
+
+.Lista2>ul>li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.Lista2>ul:first-of-type {
+    color: yellow;
+    background-color: deeppink;
+}
+
+.Lista2>ul:last-of-type {
+    color: deeppink;
+    background-color: yellow;
+}
+
+.Lista3>ul>li:not(.destaque){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: deeppink;
+}
+
+.Lista3>ul>li:nth-of-type(2){
+    color: yellow;
+    background-color: deeppink;
+}
+
+.qualamusica1>input:checked {
+    outline: 2px solid greenyellow;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.qualamusica2>option:disabled {
+    color: brown;
+}
+
+.escolhadamusica>label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.escolhadamusica>input[type=number]:invalid {
+    color: crimson;
+}
+
+.escolhadamusica>input[type=number]:valid {
+    color: greenyellow;
+}
+
+.escolhadamusica>input:required {
+color: rgb(255, 43, 131);
+}
+
+.paragrafos1>p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.paragrafos1>p::after{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    content: "Look how they shine for you";
+    color: deeppink;
+}
+
+.paragrafos2>p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.paragrafos2>p::before{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    content: "It's true, look how they shine for you";
+    color: deeppink;
+}
+
+.paragrafos1>p::first-letter {
+    color: rgb(33, 248, 255);
+    text-transform: uppercase;
+}
+
+.paragrafos2>p::first-line {
+    color: rgb(33, 248, 255);
+}
+
+.paragrafos2>p::selection {
+    color: rgb(235, 11, 255);
+}
+
+.paragrafos2>p::marker {
+    color: rgb(235, 11, 255);
+    font-size: 23px;
+}
+
+.escolhadamusica>input::placeholder{
+    color: rgb(255, 43, 131);
+    }
